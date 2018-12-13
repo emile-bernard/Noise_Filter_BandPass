@@ -1,0 +1,133 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  margin: 2px;
+  padding: 4px;
+}
+
+.buttonText {
+  display: inline;
+  font-size: 14px;
+  color: black;
+}
+
+#train {
+  color: white;
+  background: #066466;
+}
+
+#predict {
+  color: white;
+  background: #7c5a1b;
+}
+
+.buttonHeader{
+  margin: 4px;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+#videoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#videoStatusContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#videoButtonsContainer {
+  display: flex;
+  flex-direction: column;
+  background: #4FB99F;
+  width: 100%;
+}
+
+#videoChoicesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#videoCustomChoicesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#videoTrainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#videoResultContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#videoSaveAndLoadContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#home-page-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home-page-brand-name{
+  color: #52fff0;
+  text-shadow: 2px 2px #068587;
+  font-size: 2.5em;
+}
+
+.home-page-background {
+  animation: slide 6s infinite alternate;
+  background: #068587;
+  top: 0;
+  bottom: 0;
+  left: -50%;
+  right: -50%;
+  opacity: .3;
+  position: fixed;
+  z-index: -1;
+}
