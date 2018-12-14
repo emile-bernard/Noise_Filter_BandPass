@@ -8,7 +8,8 @@ mouseX = frequency
 mouseY = resonance/width 
 
 ## Previews
-
+![Capture1](docs/preview/Capture1.PNG?raw=true "Capture1")
+![Capture2](docs/preview/Capture2.PNG?raw=true "Capture2")    
 
 ## Built With
 - [p5.js](https://p5js.org/)
